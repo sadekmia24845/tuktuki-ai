@@ -3,7 +3,7 @@
    ========================================================================== */
 
 // >>> CHANGE THIS AFTER DEPLOYING YOUR BACKEND TO RENDER <<<
-const API_URL = "http://localhost:5000/chat";
+const API_URL = "https://tuktuki-ai-1.onrender.com/chat";
 
 /* ---------------- State ---------------- */
 
