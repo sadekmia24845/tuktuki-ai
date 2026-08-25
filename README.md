@@ -1,4 +1,4 @@
-# 🐦 Tuktuki AI
+# Tuktuki AI
 
 A beautiful, production-ready AI chatbot web application inspired by ChatGPT — built with vanilla HTML/CSS/JS on the frontend, Express.js on the backend, and powered by the Google Gemini API.
 
@@ -6,22 +6,22 @@ A beautiful, production-ready AI chatbot web application inspired by ChatGPT —
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🌙 Premium dark theme with glassmorphism (light theme toggle included)
-- 📱 Fully responsive — mobile, tablet, and desktop
-- 💬 ChatGPT-style sidebar with chat history stored in `localStorage`
-- 🆕 New Chat button — start fresh conversations anytime
-- 📝 Full Markdown rendering + syntax-highlighted code blocks
-- 📋 One-click copy for messages and code snippets
-- ⌨️ `Enter` to send, `Shift + Enter` for a new line
-- 🔄 Typing / loading animation while the AI responds
-- 🔒 API key is kept 100% private on the backend — never exposed to the browser
-- 🚀 Ready to deploy: frontend → GitHub Pages, backend → Render (free tier)
+- Premium dark theme with glassmorphism (light theme toggle included)
+- Fully responsive — mobile, tablet, and desktop
+- ChatGPT-style sidebar with chat history stored in `localStorage`
+- New Chat button — start fresh conversations anytime
+- Full Markdown rendering + syntax-highlighted code blocks
+- One-click copy for messages and code snippets
+- `Enter` to send, `Shift + Enter` for a new line
+- Typing / loading animation while the AI responds
+- API key is kept 100% private on the backend — never exposed to the browser
+- Ready to deploy: frontend → GitHub Pages, backend → Render (free tier)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 tuktuki-ai/
@@ -39,7 +39,7 @@ tuktuki-ai/
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                     |
 |------------|---------------------------------|
@@ -50,7 +50,7 @@ tuktuki-ai/
 
 ---
 
-## 🚀 Getting Started (Local Development)
+##  Getting Started (Local Development)
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ node server.js
 You should see:
 
 ```
-🐦 Tuktuki AI backend running on http://localhost:5000
+ Tuktuki AI backend running on http://localhost:5000
    Model: gemini-1.5-flash
    POST http://localhost:5000/chat
 ```
@@ -115,7 +115,7 @@ Then visit the printed local URL (e.g. `http://localhost:3000`). The frontend is
 
 ---
 
-## 🔑 Getting a Google Gemini API Key
+##  Getting a Google Gemini API Key
 
 1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. Sign in with your Google account
@@ -127,7 +127,7 @@ The free tier is generous and perfect for personal projects and demos.
 
 ---
 
-## ☁️ Deploying the Backend to Render (Free)
+##  Deploying the Backend to Render (Free)
 
 1. Push this project to a GitHub repository (see Git steps below).
 2. Go to [render.com](https://render.com) and sign in / sign up.
@@ -150,11 +150,11 @@ The free tier is generous and perfect for personal projects and demos.
    ```
 9. Test it by visiting that URL in your browser — you should see a JSON status message.
 
-> ⚠️ Note: Render's free tier spins down after inactivity, so the first request after idling may take 30–60 seconds to respond.
+>  Note: Render's free tier spins down after inactivity, so the first request after idling may take 30–60 seconds to respond.
 
 ---
 
-## 🌐 Deploying the Frontend to GitHub Pages
+##  Deploying the Frontend to GitHub Pages
 
 1. Push your project to GitHub (see below).
 2. In your repository, go to **Settings** → **Pages**.
@@ -165,14 +165,14 @@ The free tier is generous and perfect for personal projects and demos.
    https://yourusername.github.io/tuktuki-ai/
    ```
 
-> 💡 **Tip:** GitHub Pages can only serve from the repository root or a `/docs` folder. If your Pages settings don't allow selecting `/frontend`, either:
+>  **Tip:** GitHub Pages can only serve from the repository root or a `/docs` folder. If your Pages settings don't allow selecting `/frontend`, either:
 > - Move the contents of `frontend/` into a `/docs` folder and select `/docs` as the source, or
 > - Create a separate repository containing only the frontend files, or
 > - Use GitHub Actions to deploy the `frontend/` folder to the `gh-pages` branch.
 
 ---
 
-## 🔗 Pushing to GitHub
+##  Pushing to GitHub
 
 ```bash
 git init
@@ -185,7 +185,7 @@ git push -u origin main
 
 ---
 
-## ⚙️ Connecting Frontend to Your Deployed Backend
+##  Connecting Frontend to Your Deployed Backend
 
 After your backend is live on Render, open `frontend/script.js` and update the very first constant:
 
@@ -204,7 +204,7 @@ Commit and push this change — GitHub Pages will automatically redeploy your fr
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 **"GEMINI_API_KEY is not set" warning on startup**
 Make sure `backend/.env` exists and contains a valid `GEMINI_API_KEY`. It must NOT be committed to GitHub — it's already excluded via `.gitignore`.
@@ -228,7 +228,7 @@ Change the `PORT` value in `backend/.env` to any free port (e.g. `5050`), then r
 
 ---
 
-## 📋 Quick Reference — Setup Steps
+##  Quick Reference — Setup Steps
 
 1. **Install Node.js packages**
    ```bash
@@ -247,7 +247,7 @@ Change the `PORT` value in `backend/.env` to any free port (e.g. `5050`), then r
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — free to use, modify, and distribute.
 
