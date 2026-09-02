@@ -1,4 +1,4 @@
-Visit Link: https://sadekmia24845.github.io/tuktuki-ai/
+Visit URL: https://sadekmia24845.github.io/tuktuki-ai/
 
 
 # Tuktuki AI
